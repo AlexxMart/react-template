@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React Template
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+This template includes all the basic structure needed to start working with [React](https://reactjs.org/), [Redux](https://redux.js.org/), and [Sass](http://sass-lang.com/) right away.
 
-### `npm start`
+The "Redux Thunk" middleware and the "Redux Dev Tools" configuration is already setup in the "store.js" file within "src\stores". Also, all the "React Router", Redux "Store" and "Provider" is already setup in the "Index.js" file inside the "Components" folder.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+When you run "yarn install" it will also install the dependencies for [Redux Thunk](https://github.com/reduxjs/redux-thunk), [React Router](https://reacttraining.com/react-router/web/guides/philosophy), and [Lodash](https://lodash.com/).
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+With this template you can either use CSS, SASS, or SCSS to create the styles for your applications. When you run the "watch-css" command it will compile all the SASS and SCSS files in your project and transpile them to CSS. That's why it is recommended to have an "App.scss" (or "App.css") file within your "styles" folder and import all your styles there, so when you run the "watch-css" command it adds all your transpiled styles to that single file (as it is the file being imported in "Index.js" inside the components directory).
 
-### `npm test`
+It is recommended, for consistency and to keep an easy to understand structure, that you create a SASS, SCSS, or CSS file for each component in your application and save those files inside "styles/pages".
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Finally, this template already includes three files in the "styles/helpers". Those files include all the necessary mixins for "Flexbox", media queries for all screen sizes, and an empty file for variables for you to declare all the global style variables in your project.
 
-### `npm run build`
+### Remember!
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Remember to change your git's remote before pushing changes to your project. After you clone this repo, the "origin" remote will be this same repository, so you need to change that to your own project repository before commiting your changes. To change that you can run the command below in your terminal:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+```
