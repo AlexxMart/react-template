@@ -16,7 +16,7 @@ Finally, this template already includes three files in the "styles/helpers". Tho
 
 ### Remember!
 
-Remember to change your git's remote before pushing changes to your project. After you clone this repo, the "origin" remote will be this same repository, so you need to change that to your own project repository before commiting your changes. To change that you can run the command below in your terminal:
+Remember to change your git's remote before pushing changes to your project. After you clone this repo, the "origin" remote will be this same repository, so you need to change that to your own project's repository before commiting your changes. To change that you can run the command below in your terminal:
 
 ```
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
