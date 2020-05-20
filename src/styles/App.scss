@@ -1,5 +1,5 @@
 /*
-CSS formulate to scale text to screen size
+CSS formula to scale text to screen size
 
 calc(minsize + (maxsize - minsize) * ((maxViewPortWidth - minWidth) / (maxWidth - minWidth)))
 
